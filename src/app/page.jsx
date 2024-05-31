@@ -4,12 +4,13 @@ import profilePic from "./../../public/Icon.jpg"
 export default function page() {
   return (
     <div className="flex flex-col justify-center items-center gap-4 lg:flex-row p-16">
-
+      
       <Image
       src={profilePic}
+
       alt="Picture of Imam ali"
+
       className="w-[400px] md:w-[450px] lg:w-[500px]"
-      placeholder="blur"
       />
 
       <div className="w-[400px] md:w-[450px] lg:w-[500px] text-center">
